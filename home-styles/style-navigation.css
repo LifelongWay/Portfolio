@@ -1,0 +1,70 @@
+
+.about-div {
+    color: white;
+}
+
+.nav {
+    margin: 2vh 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: start;
+    column-gap: clamp(0px, 3vw, 20px);
+    flex-direction: row;
+    
+    animation: typewriter 3.3s;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes typewriter {
+    0% {
+        width: 0px;
+    }
+}
+
+@keyframes unfade {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+.nav-element {
+    font-family: "Teko";
+    font-size: clamp(18px, 6vw, 43px);
+    color:rgb(192, 136, 39);
+}
+
+.section {
+    text-align: center;
+    font-family: "Teko";
+    font-size: clamp(18px, 5vw, 80px);
+    border-bottom: 0.4vh solid white;
+    padding-bottom: 0.1vh;
+}
+.about, .contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5vh;
+    font-family:  monospace;
+    font-size: clamp(18px, 2.3vw, 20px);
+    color: white;
+
+    animation: unfade 3s;
+    animation-timing-function: ease-in-out;
+
+    margin-bottom: 2vh;
+}
+
+.contacts {
+    row-gap: 1.5vh;
+    font-size: clamp(13px, 2.3vw, 20px);
+}
+.contact-type {
+    font-family: "JetBrains Mono";
+    font-size: clamp(14px, 2.3vw, 20px);
+    color: rgb(229, 231, 235);
+    margin-bottom: 1vh;
+}
+
+

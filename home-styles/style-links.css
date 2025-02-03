@@ -1,0 +1,13 @@
+/* styling for awesome fonts */
+
+.fa-instagram {
+    color: rgb(200, 59, 92);
+}
+.fa-linkedin {
+    color: rgb(17, 17, 232);
+}
+.fa-linkedin:active,
+.fa-instagram:active,
+.fa-linkedin:active {
+    color: red;
+}

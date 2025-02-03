@@ -1,0 +1,7 @@
+.copyright-container {
+    position: absolute;
+    bottom: 2vh;
+    right: 10vw;
+    color: white;
+    font-size: clamp(9px, 3vw, 19px);
+}

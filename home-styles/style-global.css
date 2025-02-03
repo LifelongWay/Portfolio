@@ -1,0 +1,52 @@
+a {
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #151515;
+    margin: 0px 0px;
+    padding: 10vh 15vw;
+    height: 100vh;
+}
+body:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    background-image: url("../assets/mobile-3.jpg");
+    animation: zooming 2s;
+}
+
+/* media-query for body:before */
+/* @media screen and (min-width: 440px){
+    body:before {
+        background-image: url("../assets/pingui.jpg");
+        animation: zooming 2s;
+    }
+}
+
+@media screen and (max-width: 440px){
+    body:before{
+        background-image: none;
+        background-image: url("../assets/mobile-3.jpg");
+    }
+} */
+
+@keyframes zooming {
+    from {
+        width: 250vw;
+        left: -75vw;
+    }
+    to {
+        width: 100vw;
+    }
+}
