@@ -7,7 +7,7 @@
     color: rgb(17, 17, 232);
 }
 .fa-linkedin:active,
-.fa-instagram:active,
-.fa-linkedin:active {
+.fa-instagram:active
+{
     color: red;
 }
